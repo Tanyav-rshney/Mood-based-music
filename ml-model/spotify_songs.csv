@@ -1,0 +1,191 @@
+,artist_name,genres,followers,artist_popularity,artist_url,track_name,album_name,release_date,duration_ms,explicit,track_popularity,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo
+0,Arijit Singh,Bollywood,489963,70,https://open.spotify.com/artist/0,Gallan Goodiyaan,Dil Dhadakne Do,2015-01-01,282000,False,91,0.441,0.727,2,-6.924,0,0.079,0.1921,0.000181,0.1035,0.865,114.9
+1,Vishal Dadlani,Bollywood,70199,86,https://open.spotify.com/artist/1,Balam Pichkari,Yeh Jawaani Hai Deewani,2013-01-01,276000,False,93,0.785,0.854,5,-8.218,1,0.0792,0.3514,0.000959,0.1426,0.719,106.2
+2,Benny Dayal,Bollywood,213398,87,https://open.spotify.com/artist/2,Badtameez Dil,Yeh Jawaani Hai Deewani,2013-01-01,240000,False,90,0.311,0.71,10,-5.906,1,0.073,0.1527,0.00077,0.19,0.841,146.8
+3,Badshah,Bollywood,143734,77,https://open.spotify.com/artist/3,Kala Chashma,Baar Baar Dekho,2016-01-01,234000,False,94,0.686,0.807,8,-6.833,0,0.0528,0.3293,1.5e-05,0.0673,0.886,111.3
+4,Mika Singh,Bollywood,383086,94,https://open.spotify.com/artist/4,Ganpat,Shootout at Lokhandwala,2007-01-01,248000,False,85,0.83,0.874,10,-9.301,1,0.0456,0.2063,0.000475,0.0809,0.887,127.9
+5,Sukhwinder Singh,Bollywood,472242,82,https://open.spotify.com/artist/5,Jai Ho,Slumdog Millionaire,2009-01-01,322000,False,96,0.862,0.839,6,-4.72,1,0.027,0.0919,0.000997,0.1154,0.776,145.3
+6,Labh Janjua,Bollywood,230502,90,https://open.spotify.com/artist/6,London Thumakda,Queen,2014-01-01,258000,False,89,0.533,0.929,1,-8.666,0,0.0206,0.0855,0.000284,0.1432,0.811,104.3
+7,Daler Mehndi,Bollywood,219039,72,https://open.spotify.com/artist/7,Tunak Tunak Tun,Tunak Tunak Tun,1998-01-01,230000,False,88,0.699,0.842,3,-6.289,1,0.0271,0.2274,0.000355,0.0963,0.934,107.9
+8,Shankar Mahadevan,Bollywood,101965,95,https://open.spotify.com/artist/8,Breathless,Breathless,1998-01-01,280000,False,84,0.486,0.775,4,-5.005,0,0.0394,0.4322,2.6e-05,0.1611,0.946,109.7
+9,Salim Merchant,Bollywood,351281,77,https://open.spotify.com/artist/9,Ainvayi Ainvayi,Band Baaja Baaraat,2010-01-01,266000,False,86,0.348,0.855,10,-3.5,0,0.0652,0.3181,0.000919,0.0954,0.709,98.0
+10,Vishal Dadlani,Bollywood,406591,77,https://open.spotify.com/artist/10,Swag Se Swagat,Tiger Zinda Hai,2017-01-01,244000,False,90,0.767,0.8,2,-8.203,1,0.0657,0.089,0.000958,0.1947,0.924,115.8
+11,Shreya Ghoshal,Bollywood,303116,91,https://open.spotify.com/artist/11,Ghoomar,Padmaavat,2018-01-01,266000,False,89,0.735,0.797,7,-7.978,1,0.0628,0.1448,0.000706,0.1145,0.714,143.2
+12,Sonu Nigam,Bollywood,166720,84,https://open.spotify.com/artist/12,Mere Sapno Ki Rani,Aradhana Remix,2000-01-01,268000,False,88,0.589,0.868,7,-4.675,0,0.0241,0.3826,0.000949,0.142,0.94,112.1
+13,Arijit Singh,Bollywood,202091,72,https://open.spotify.com/artist/13,Jhoome Jo Pathaan,Pathaan,2023-01-01,232000,False,97,0.437,0.754,1,-9.813,0,0.0302,0.3486,0.000681,0.1525,0.897,137.1
+14,Arijit Singh,Bollywood,497849,91,https://open.spotify.com/artist/14,Nashe Si Chadh Gayi,Befikre,2016-01-01,235000,False,91,0.62,0.79,4,-4.563,1,0.0754,0.27,0.000952,0.0838,0.87,84.1
+15,Vishal Dadlani,Bollywood,493101,74,https://open.spotify.com/artist/15,Malhari,Bajirao Mastani,2015-01-01,245000,False,90,0.825,0.737,11,-9.015,0,0.0473,0.1085,0.000683,0.0759,0.897,137.6
+16,Shivam Pathak,Bollywood,333483,84,https://open.spotify.com/artist/16,Khalibali,Padmaavat,2018-01-01,230000,False,87,0.393,0.914,6,-6.479,0,0.0312,0.1835,0.000786,0.074,0.732,86.2
+17,Mika Singh,Bollywood,66144,84,https://open.spotify.com/artist/17,Dhinka Chika,Ready,2011-01-01,210000,False,88,0.519,0.936,6,-3.521,0,0.0547,0.2084,0.000876,0.115,0.779,77.3
+18,Honey Singh,Bollywood,345952,73,https://open.spotify.com/artist/18,Angrezi Beat,Cocktail,2012-01-01,215000,False,86,0.804,0.834,10,-6.206,0,0.0784,0.0989,0.000477,0.1481,0.838,138.2
+19,Badshah,Bollywood,143266,86,https://open.spotify.com/artist/19,DJ Waley Babu,DJ Waley Babu,2015-01-01,198000,False,90,0.532,0.762,9,-4.771,1,0.079,0.2911,0.000627,0.1812,0.796,137.3
+20,Daler Mehndi,Bollywood,423811,83,https://open.spotify.com/artist/20,Bolo Ta Ra Ra,Bolo Ta Ra Ra,1995-01-01,225000,False,87,0.496,0.786,2,-4.939,0,0.0522,0.0351,0.000472,0.0796,0.744,101.8
+21,Sukhbir,Bollywood,345196,74,https://open.spotify.com/artist/21,Ishq Tera Tadpave,Ishq Tera Tadpave,1998-01-01,220000,False,85,0.594,0.847,7,-4.716,1,0.0378,0.3783,0.000382,0.1527,0.8,131.9
+22,Shankar Mahadevan,Bollywood,226643,73,https://open.spotify.com/artist/22,Dil Chahta Hai,Dil Chahta Hai,2001-01-01,290000,False,92,0.397,0.892,10,-6.488,0,0.0216,0.485,0.000709,0.119,0.745,83.2
+23,Vishal Dadlani,Bollywood,214475,93,https://open.spotify.com/artist/23,Dhoom Again,Dhoom 2,2006-01-01,250000,False,89,0.454,0.81,6,-9.606,1,0.0211,0.4801,0.000507,0.1373,0.897,108.7
+24,Benny Dayal,Bollywood,439100,88,https://open.spotify.com/artist/24,Disco Deewane,Student Of The Year,2012-01-01,235000,False,88,0.858,0.92,6,-9.651,0,0.0619,0.2532,0.000235,0.1007,0.881,129.5
+25,Arijit Singh,Bollywood,74085,72,https://open.spotify.com/artist/25,Cutiepie,Ae Dil Hai Mushkil,2016-01-01,200000,False,85,0.578,0.808,9,-4.258,0,0.0501,0.2978,0.000579,0.1902,0.903,145.3
+26,Badshah,Bollywood,432614,94,https://open.spotify.com/artist/26,Mercy,Mercy,2017-01-01,195000,False,91,0.422,0.827,6,-3.043,0,0.0217,0.3354,0.00083,0.0899,0.79,112.4
+27,Neha Kakkar,Bollywood,61135,72,https://open.spotify.com/artist/27,Aankh Marey,Simmba,2018-01-01,215000,False,93,0.621,0.734,3,-8.964,0,0.037,0.198,0.000367,0.1967,0.722,107.6
+28,Neha Kakkar,Bollywood,472552,91,https://open.spotify.com/artist/28,Dilbar,Satyameva Jayate,2018-01-01,205000,False,92,0.763,0.872,3,-7.654,0,0.0767,0.4064,0.000321,0.0905,0.808,134.3
+29,Guru Randhawa,Bollywood,200960,85,https://open.spotify.com/artist/29,Lahore,Lahore,2017-01-01,190000,False,90,0.557,0.777,9,-6.864,0,0.0771,0.2394,0.000582,0.098,0.756,139.4
+30,Guru Randhawa,Bollywood,431184,76,https://open.spotify.com/artist/30,High Rated Gabru,High Rated Gabru,2017-01-01,200000,False,89,0.694,0.736,1,-9.791,1,0.0585,0.3758,0.000183,0.1325,0.737,78.6
+31,Tony Kakkar,Bollywood,414539,74,https://open.spotify.com/artist/31,Coca Cola,Luka Chuppi,2019-01-01,210000,False,87,0.665,0.825,11,-7.651,0,0.0782,0.064,0.000555,0.1535,0.901,141.9
+32,Badshah,Bollywood,392970,88,https://open.spotify.com/artist/32,Paagal,Paagal,2019-01-01,188000,False,91,0.814,0.793,4,-8.517,0,0.0367,0.1546,3e-06,0.1508,0.925,86.7
+33,Yo Yo Honey Singh,Bollywood,395543,75,https://open.spotify.com/artist/33,Blue Eyes,Blue Eyes,2013-01-01,225000,False,88,0.362,0.931,8,-3.256,1,0.0435,0.2711,0.000458,0.0511,0.821,120.6
+34,Mika Singh,Bollywood,331823,71,https://open.spotify.com/artist/34,Jumme Ki Raat,Kick,2014-01-01,245000,False,90,0.786,0.878,5,-4.409,1,0.0706,0.414,0.000858,0.0783,0.941,92.8
+35,Pritam,Bollywood,68811,95,https://open.spotify.com/artist/35,Ullu Ka Pattha,Jagga Jasoos,2017-01-01,210000,False,84,0.747,0.918,8,-6.05,0,0.0311,0.3707,0.000754,0.1709,0.712,122.3
+36,Amit Trivedi,Bollywood,94242,75,https://open.spotify.com/artist/36,Udta Punjab,Udta Punjab,2016-01-01,230000,False,86,0.589,0.725,11,-3.692,0,0.0433,0.3793,0.000136,0.0878,0.724,83.6
+37,Vishal Dadlani,Bollywood,108546,83,https://open.spotify.com/artist/37,Sultan,Sultan,2016-01-01,255000,False,91,0.661,0.812,5,-8.015,1,0.0567,0.0707,0.00094,0.1292,0.9,86.3
+38,Nucleya,Bollywood,429473,71,https://open.spotify.com/artist/38,Laung Gawacha,Laung Gawacha,2015-01-01,205000,False,88,0.489,0.724,7,-9.186,0,0.0684,0.1145,5e-06,0.0827,0.797,145.3
+39,Raftaar,Bollywood,186996,82,https://open.spotify.com/artist/39,Swag Mera Desi,Swag Mera Desi,2014-01-01,198000,False,87,0.493,0.771,1,-4.14,1,0.0407,0.3274,0.000959,0.1616,0.78,124.6
+40,Arijit Singh,Bollywood,188747,78,https://open.spotify.com/artist/40,Tujhe Kitna Chahne Lage,Kabir Singh,2019-01-01,240000,False,92,0.802,0.327,6,-6.04,1,0.0217,0.1853,0.000589,0.102,0.207,110.0
+41,Arijit Singh,Bollywood,379317,84,https://open.spotify.com/artist/41,Channa Mereya,Ae Dil Hai Mushkil,2016-01-01,280000,False,97,0.413,0.438,6,-7.961,0,0.0759,0.444,0.000909,0.1002,0.376,79.3
+42,Arijit Singh,Bollywood,468114,85,https://open.spotify.com/artist/42,Agar Tum Saath Ho,Tamasha,2015-01-01,340000,False,96,0.506,0.442,6,-6.371,0,0.0671,0.3318,0.000413,0.1131,0.239,138.5
+43,Arijit Singh,Bollywood,170649,86,https://open.spotify.com/artist/43,Phir Le Aaya Dil,Barfi,2012-01-01,296000,False,88,0.648,0.471,2,-5.234,1,0.0522,0.4672,0.000654,0.0911,0.365,140.1
+44,Arijit Singh,Bollywood,333286,75,https://open.spotify.com/artist/44,Samjhawan,Humpty Sharma Ki Dulhania,2014-01-01,280000,False,90,0.452,0.366,1,-9.591,1,0.0444,0.0693,0.00028,0.1741,0.227,76.6
+45,Atif Aslam,Bollywood,205222,90,https://open.spotify.com/artist/45,Tere Bin,Bas Ek Pal,2006-01-01,310000,False,89,0.835,0.368,10,-9.743,1,0.0704,0.0848,0.000964,0.1679,0.231,107.9
+46,KK,Bollywood,140584,84,https://open.spotify.com/artist/46,Tadap Tadap,Hum Dil De Chuke Sanam,1999-01-01,340000,False,88,0.62,0.334,1,-9.308,1,0.0263,0.0864,0.00065,0.069,0.339,149.7
+47,Sonu Nigam,Bollywood,490956,71,https://open.spotify.com/artist/47,Abhi Mujh Mein Kahin,Agneepath,2012-01-01,298000,False,94,0.437,0.394,9,-9.034,0,0.0582,0.0855,0.000568,0.1919,0.312,132.3
+48,Sonu Nigam,Bollywood,299485,87,https://open.spotify.com/artist/48,Kal Ho Naa Ho,Kal Ho Naa Ho,2003-01-01,322000,False,96,0.847,0.316,3,-8.528,0,0.0321,0.1561,0.000704,0.0588,0.397,131.1
+49,Mohit Chauhan,Bollywood,75755,74,https://open.spotify.com/artist/49,Tum Se Hi,Jab We Met,2007-01-01,312000,False,91,0.333,0.313,4,-7.484,0,0.0504,0.3538,0.000767,0.0919,0.336,126.7
+50,Arijit Singh,Bollywood,327492,92,https://open.spotify.com/artist/50,Humdard,Ek Villain,2014-01-01,255000,False,87,0.82,0.481,7,-8.333,0,0.0361,0.2576,0.000886,0.1491,0.252,91.1
+51,Shreya Ghoshal,Bollywood,271401,75,https://open.spotify.com/artist/51,Teri Meri,Bodyguard,2011-01-01,296000,False,86,0.899,0.488,4,-6.138,0,0.0671,0.0816,0.000883,0.1691,0.221,101.9
+52,Arijit Singh,Bollywood,207199,72,https://open.spotify.com/artist/52,O Bedardeya,Tu Jhoothi Main Makkaar,2023-01-01,286000,False,93,0.314,0.485,0,-8.95,0,0.0214,0.0488,0.00021,0.1286,0.321,103.0
+53,Arijit Singh,Bollywood,79239,91,https://open.spotify.com/artist/53,Ae Dil Hai Mushkil,Ae Dil Hai Mushkil,2016-01-01,278000,False,95,0.563,0.385,11,-3.167,1,0.0442,0.1073,0.0006,0.0575,0.232,115.7
+54,Jubin Nautiyal,Bollywood,237234,95,https://open.spotify.com/artist/54,Lut Gaye,Lut Gaye,2021-01-01,265000,False,90,0.699,0.394,6,-6.174,0,0.0214,0.1188,0.000252,0.1139,0.27,73.6
+55,Armaan Malik,Bollywood,145617,73,https://open.spotify.com/artist/55,Bol Do Na Zara,Azhar,2016-01-01,270000,False,84,0.496,0.494,9,-4.16,1,0.0222,0.1821,7.2e-05,0.1245,0.229,148.3
+56,Papon,Bollywood,412119,73,https://open.spotify.com/artist/56,Moh Moh Ke Dhaage,Dum Laga Ke Haisha,2015-01-01,295000,False,83,0.693,0.453,8,-6.215,1,0.0773,0.3736,0.000874,0.1928,0.3,139.8
+57,Arijit Singh,Bollywood,449207,83,https://open.spotify.com/artist/57,Phir Bhi Tumko Chaahunga,Half Girlfriend,2017-01-01,285000,False,91,0.768,0.349,2,-9.402,0,0.044,0.0547,0.000358,0.1345,0.277,122.1
+58,KK,Bollywood,317947,75,https://open.spotify.com/artist/58,Alvida,Life In A Metro,2007-01-01,310000,False,87,0.521,0.468,10,-9.643,1,0.0337,0.2909,0.00041,0.1488,0.329,104.0
+59,Mohit Chauhan,Bollywood,201033,85,https://open.spotify.com/artist/59,Khoon Chala,Rang De Basanti,2006-01-01,300000,False,85,0.32,0.397,2,-5.615,1,0.0632,0.3884,0.000511,0.0514,0.326,97.6
+60,Arijit Singh,Bollywood,157020,73,https://open.spotify.com/artist/60,Kabira,Yeh Jawaani Hai Deewani,2013-01-01,260000,False,89,0.594,0.31,9,-4.679,1,0.0334,0.0551,0.000616,0.152,0.246,134.5
+61,Shreya Ghoshal,Bollywood,322201,76,https://open.spotify.com/artist/61,Tujhme Rab Dikhta Hai,Rab Ne Bana Di Jodi,2008-01-01,295000,False,90,0.808,0.453,2,-3.369,1,0.0402,0.4971,0.000132,0.1667,0.273,117.7
+62,Atif Aslam,Bollywood,261248,71,https://open.spotify.com/artist/62,Pehli Nazar Mein,Race,2008-01-01,275000,False,88,0.469,0.458,6,-4.132,0,0.0305,0.143,0.00079,0.174,0.341,94.6
+63,Arijit Singh,Bollywood,172401,93,https://open.spotify.com/artist/63,Tum Hi Ho,Aashiqui 2,2013-01-01,262000,False,98,0.563,0.447,6,-5.075,1,0.0296,0.4018,0.000867,0.1332,0.27,106.9
+64,Sonu Nigam,Bollywood,448557,78,https://open.spotify.com/artist/64,Sandese Aate Hain,Border,1997-01-01,350000,False,86,0.885,0.444,4,-8.068,1,0.0358,0.4924,0.00033,0.094,0.393,105.3
+65,Arijit Singh,Bollywood,291884,87,https://open.spotify.com/artist/65,Hamari Adhuri Kahani,Hamari Adhuri Kahani,2015-01-01,310000,False,87,0.638,0.33,5,-8.765,0,0.03,0.4126,0.000389,0.1707,0.293,94.7
+66,Jubin Nautiyal,Bollywood,280874,89,https://open.spotify.com/artist/66,Tujhe Bhula Diya,Tujhe Bhula Diya,2020-01-01,240000,False,85,0.519,0.428,8,-8.659,0,0.0738,0.4567,5e-06,0.0527,0.364,89.4
+67,B Praak,Bollywood,449020,74,https://open.spotify.com/artist/67,Filhall,Filhall,2019-01-01,255000,False,92,0.443,0.335,9,-5.36,1,0.0302,0.1234,0.000629,0.0729,0.296,137.5
+68,B Praak,Bollywood,224727,73,https://open.spotify.com/artist/68,Filhaal 2,Filhaal 2 Mohabbat,2021-01-01,260000,False,90,0.661,0.435,8,-7.729,1,0.0745,0.4495,0.000763,0.1002,0.247,134.7
+69,Arijit Singh,Bollywood,224871,82,https://open.spotify.com/artist/69,Khairiyat,Chhichhore,2019-01-01,270000,False,91,0.815,0.466,1,-6.2,1,0.0494,0.3442,3.7e-05,0.1925,0.228,71.1
+70,Vishal Mishra,Bollywood,184980,75,https://open.spotify.com/artist/70,Pehle Bhi Main,Animal,2023-01-01,250000,False,93,0.686,0.366,3,-7.208,1,0.033,0.3156,0.000456,0.1704,0.294,147.6
+71,Arijit Singh,Bollywood,195419,92,https://open.spotify.com/artist/71,Dil Ibaadat,Tum Mile,2009-01-01,300000,False,84,0.517,0.431,6,-6.087,1,0.0565,0.1699,0.000219,0.1052,0.366,91.8
+72,Atif Aslam,Bollywood,326713,94,https://open.spotify.com/artist/72,Aadat,Aadat,2005-01-01,330000,False,86,0.444,0.441,9,-6.034,0,0.0524,0.4032,7.5e-05,0.0506,0.268,134.8
+73,Mohit Chauhan,Bollywood,151840,88,https://open.spotify.com/artist/73,Phir Se Ud Chala,Rockstar,2011-01-01,290000,False,85,0.367,0.454,6,-9.778,1,0.0489,0.1671,0.000578,0.1622,0.384,95.9
+74,KK,Bollywood,422106,87,https://open.spotify.com/artist/74,Yaaron,Rockford,1999-01-01,278000,False,90,0.332,0.333,2,-3.069,0,0.0731,0.4244,0.000822,0.06,0.246,142.4
+75,KK,Bollywood,309834,84,https://open.spotify.com/artist/75,Pal,Pal,1999-01-01,265000,False,88,0.719,0.343,7,-5.284,0,0.0424,0.0207,0.00039,0.1627,0.215,142.9
+76,Shreya Ghoshal,Bollywood,174446,93,https://open.spotify.com/artist/76,Sunn Raha Hai,Aashiqui 2,2013-01-01,285000,False,91,0.42,0.444,6,-8.305,1,0.0521,0.1187,0.000719,0.1322,0.307,96.7
+77,Arijit Singh,Bollywood,140857,92,https://open.spotify.com/artist/77,Matargashti,Tamasha,2015-01-01,230000,False,83,0.616,0.375,11,-4.288,0,0.0795,0.2934,1.2e-05,0.1128,0.385,81.3
+78,Arijit Singh,Bollywood,390171,90,https://open.spotify.com/artist/78,Ilahi,Yeh Jawaani Hai Deewani,2013-01-01,218000,False,87,0.868,0.408,5,-5.85,1,0.0732,0.2619,0.000276,0.1268,0.377,90.7
+79,Darshan Raval,Bollywood,160238,71,https://open.spotify.com/artist/79,Tera Zikr,Tera Zikr,2017-01-01,245000,False,87,0.641,0.487,4,-8.431,1,0.0692,0.1698,0.000955,0.1394,0.321,120.2
+80,A.R. Rahman,Bollywood,471910,76,https://open.spotify.com/artist/80,Kun Faya Kun,Rockstar,2011-01-01,468000,False,96,0.791,0.327,1,-3.826,1,0.0262,0.4081,0.00048,0.1171,0.523,131.0
+81,A.R. Rahman,Bollywood,449391,74,https://open.spotify.com/artist/81,Khwaja Mere Khwaja,Jodhaa Akbar,2008-01-01,380000,False,93,0.583,0.449,9,-5.432,1,0.0521,0.2546,0.000865,0.0833,0.641,79.9
+82,Rahat Fateh Ali Khan,Bollywood,357837,73,https://open.spotify.com/artist/82,Afreen Afreen,Coke Studio,2016-01-01,472000,False,95,0.503,0.281,9,-3.295,0,0.0281,0.4436,0.000635,0.1581,0.609,144.8
+83,Arijit Singh,Bollywood,101968,86,https://open.spotify.com/artist/83,Tere Bina,Guru,2007-01-01,318000,False,86,0.582,0.273,9,-7.926,1,0.0545,0.0173,6.6e-05,0.0557,0.509,149.3
+84,Lata Mangeshkar,Bollywood,183068,86,https://open.spotify.com/artist/84,Lag Ja Gale,Woh Kaun Thi,1964-01-01,264000,False,91,0.846,0.306,11,-3.272,0,0.0295,0.3067,0.000838,0.1974,0.593,85.4
+85,Arijit Singh,Bollywood,257316,86,https://open.spotify.com/artist/85,Safar,Jab Harry Met Sejal,2017-01-01,266000,False,84,0.306,0.267,8,-7.62,0,0.0202,0.0391,0.000349,0.1434,0.557,148.5
+86,Rahat Fateh Ali Khan,Bollywood,180252,93,https://open.spotify.com/artist/86,Bol Na Halke Halke,Jhoom Barabar Jhoom,2007-01-01,296000,False,88,0.413,0.315,1,-5.947,0,0.034,0.2001,2.5e-05,0.1407,0.56,92.6
+87,Javed Ali,Bollywood,162536,83,https://open.spotify.com/artist/87,Jashn-E-Bahara,Jodhaa Akbar,2008-01-01,340000,False,88,0.646,0.283,10,-3.26,0,0.0473,0.2234,0.000502,0.0826,0.53,140.2
+88,Mohit Chauhan,Bollywood,334554,79,https://open.spotify.com/artist/88,Masakali,Delhi-6,2009-01-01,285000,False,86,0.663,0.374,3,-3.273,1,0.0567,0.2277,0.000115,0.1166,0.623,140.6
+89,A.R. Rahman,Bollywood,70540,84,https://open.spotify.com/artist/89,Jai Ho,Slumdog Millionaire OST,2009-01-01,300000,False,90,0.407,0.296,5,-3.592,1,0.04,0.2102,0.000274,0.1229,0.506,121.6
+90,A.R. Rahman,Bollywood,403765,87,https://open.spotify.com/artist/90,Tere Bina,Guru,2007-01-01,320000,False,87,0.81,0.382,10,-8.631,1,0.0468,0.4039,0.000155,0.121,0.571,98.3
+91,A.R. Rahman,Bollywood,59144,76,https://open.spotify.com/artist/91,Lukka Chuppi,Rang De Basanti,2006-01-01,310000,False,85,0.816,0.439,1,-9.73,0,0.0548,0.1326,0.000519,0.1644,0.597,113.9
+92,Nusrat Fateh Ali Khan,Bollywood,124834,73,https://open.spotify.com/artist/92,Afreen Afreen Original,Sangam,1996-01-01,480000,False,88,0.566,0.433,8,-4.696,0,0.0661,0.4568,0.000836,0.1398,0.516,117.2
+93,Arijit Singh,Bollywood,359878,94,https://open.spotify.com/artist/93,Ilahi,Yeh Jawaani Hai Deewani,2013-01-01,218000,False,87,0.817,0.304,10,-9.48,1,0.0245,0.3018,0.000322,0.1978,0.612,100.7
+94,Lata Mangeshkar,Bollywood,166986,71,https://open.spotify.com/artist/94,Tujhe Dekha To,DDLJ,1995-01-01,295000,False,93,0.427,0.263,4,-6.684,0,0.0445,0.4781,0.00086,0.1119,0.577,109.3
+95,A.R. Rahman,Bollywood,486747,94,https://open.spotify.com/artist/95,Maa Tujhe Salaam,Vande Mataram,1997-01-01,350000,False,91,0.804,0.361,11,-8.285,1,0.0545,0.1933,0.000578,0.1829,0.536,123.9
+96,Shankar Mahadevan,Bollywood,52663,77,https://open.spotify.com/artist/96,Breathless,Breathless,1998-01-01,280000,False,84,0.54,0.384,2,-6.106,1,0.0399,0.015,0.000959,0.1022,0.621,136.8
+97,Lucky Ali,Bollywood,236182,79,https://open.spotify.com/artist/97,O Sanam,Sunoh,1996-01-01,285000,False,82,0.314,0.349,11,-4.203,1,0.0502,0.4228,0.00016,0.0608,0.595,96.2
+98,Lucky Ali,Bollywood,80832,75,https://open.spotify.com/artist/98,Safar,Safar,2002-01-01,260000,False,80,0.762,0.347,11,-4.81,0,0.0473,0.1891,0.000521,0.1375,0.57,95.3
+99,Rekha Bhardwaj,Bollywood,66451,83,https://open.spotify.com/artist/99,Kabira,Yeh Jawaani Hai Deewani,2013-01-01,250000,False,85,0.732,0.43,3,-7.452,0,0.0641,0.0412,0.00038,0.1831,0.545,130.6
+100,A.R. Rahman,Bollywood,338254,86,https://open.spotify.com/artist/100,Dil Se Re,Dil Se,1998-01-01,310000,False,89,0.474,0.404,5,-9.763,1,0.031,0.0424,0.000245,0.1913,0.552,125.4
+101,Rahat Fateh Ali Khan,Bollywood,167676,71,https://open.spotify.com/artist/101,O Re Piya,Aaja Nachle,2007-01-01,280000,False,86,0.747,0.348,8,-4.085,0,0.0347,0.4699,0.00068,0.1289,0.605,118.8
+102,Javed Ali,Bollywood,445155,73,https://open.spotify.com/artist/102,Guzarish,Ghajini,2008-01-01,295000,False,84,0.851,0.439,7,-9.345,0,0.0791,0.0679,0.000313,0.0705,0.56,93.4
+103,Lata Mangeshkar,Bollywood,404524,80,https://open.spotify.com/artist/103,Tere Liye,Veer-Zaara,2004-01-01,330000,False,88,0.761,0.353,9,-5.948,0,0.0375,0.1628,0.000476,0.1263,0.548,146.7
+104,Jagjit Singh,Bollywood,342010,77,https://open.spotify.com/artist/104,Tum Itna Jo Muskura Rahe Ho,Arth,1982-01-01,290000,False,83,0.527,0.412,10,-3.81,1,0.0273,0.1209,0.000782,0.189,0.637,83.0
+105,Jagjit Singh,Bollywood,166693,85,https://open.spotify.com/artist/105,Hothon Se Chhu Lo Tum,Prem Geet,1981-01-01,275000,False,85,0.431,0.333,6,-3.314,1,0.0683,0.2922,0.000564,0.1403,0.525,97.8
+106,A.R. Rahman,Bollywood,343446,83,https://open.spotify.com/artist/106,Nadaan Parindey,Rockstar,2011-01-01,340000,False,87,0.751,0.287,5,-7.968,0,0.0753,0.0468,0.000151,0.1904,0.611,101.4
+107,Amit Trivedi,Bollywood,263117,76,https://open.spotify.com/artist/107,Manjha,Kai Po Che,2013-01-01,230000,False,82,0.475,0.38,8,-3.358,0,0.0628,0.2056,0.000516,0.1277,0.554,98.3
+108,Arijit Singh,Bollywood,144341,92,https://open.spotify.com/artist/108,Shayad,Love Aaj Kal,2020-01-01,245000,False,88,0.461,0.254,8,-4.436,1,0.033,0.2489,0.000529,0.1923,0.564,108.7
+109,Mohit Chauhan,Bollywood,204783,78,https://open.spotify.com/artist/109,Dooba Dooba,Silk Route,1998-01-01,270000,False,81,0.852,0.347,2,-4.166,0,0.0627,0.0882,0.000708,0.1009,0.57,76.4
+110,Sukhwinder Singh,Bollywood,208605,78,https://open.spotify.com/artist/110,Chaiyya Chaiyya,Dil Se,1998-01-01,312000,False,95,0.646,0.92,5,-7.994,0,0.0414,0.4,0.000821,0.1438,0.427,146.4
+111,Sukhwinder Singh,Bollywood,413063,75,https://open.spotify.com/artist/111,Chak De India,Chak De India,2007-01-01,288000,False,92,0.755,0.918,9,-4.655,1,0.033,0.4675,0.000291,0.114,0.429,90.2
+112,Sukhwinder Singh,Bollywood,75619,94,https://open.spotify.com/artist/112,Kar Har Maidaan Fateh,Sanju,2018-01-01,296000,False,88,0.708,0.899,10,-7.5,1,0.0625,0.0892,0.000182,0.1761,0.534,124.3
+113,Siddharth Mahadevan,Bollywood,457609,88,https://open.spotify.com/artist/113,Zinda,Bhaag Milkha Bhaag,2013-01-01,268000,False,85,0.89,0.924,9,-9.649,1,0.0721,0.4957,0.000626,0.1169,0.558,99.0
+114,Honey Singh,Bollywood,164619,91,https://open.spotify.com/artist/114,Lungi Dance,Chennai Express,2013-01-01,252000,False,88,0.399,0.946,5,-5.615,1,0.0566,0.3292,0.000201,0.1736,0.485,104.9
+115,Badshah,Bollywood,347840,82,https://open.spotify.com/artist/115,Garmi,Street Dancer 3D,2020-01-01,228000,False,86,0.533,0.907,0,-6.032,1,0.0438,0.0656,0.000592,0.0855,0.445,114.4
+116,AP Dhillon,Bollywood,442495,76,https://open.spotify.com/artist/116,Brown Munde,Brown Munde,2020-01-01,196000,False,94,0.501,0.799,3,-7.234,0,0.0717,0.413,4.7e-05,0.192,0.481,113.8
+117,Shreya Ghoshal,Bollywood,231338,82,https://open.spotify.com/artist/117,Nagada Sang Dhol,Ram-Leela,2013-01-01,248000,False,91,0.9,0.767,2,-8.795,0,0.0525,0.1158,0.00055,0.1578,0.431,141.0
+118,Sachet Tandon,Bollywood,149986,70,https://open.spotify.com/artist/118,Bekhayali,Kabir Singh,2019-01-01,390000,False,93,0.688,0.816,4,-9.629,1,0.0206,0.3681,0.000142,0.1689,0.476,90.1
+119,Vishal Dadlani,Bollywood,466610,77,https://open.spotify.com/artist/119,Dhoom Machale,Dhoom,2004-01-01,240000,False,90,0.332,0.922,10,-3.356,0,0.0592,0.429,0.000131,0.1142,0.438,99.3
+120,Sukhwinder Singh,Bollywood,269440,89,https://open.spotify.com/artist/120,Ek Do Teen,Tezaab,1988-01-01,260000,False,87,0.681,0.791,4,-7.105,1,0.0526,0.3192,0.000669,0.1655,0.515,121.8
+121,Shankar Ehsaan Loy,Bollywood,389300,87,https://open.spotify.com/artist/121,Koi Kahe,Dil Chahta Hai,2001-01-01,235000,False,85,0.707,0.905,6,-7.249,0,0.0548,0.3189,0.000541,0.1147,0.477,90.6
+122,Vishal Dadlani,Bollywood,469910,76,https://open.spotify.com/artist/122,Tattad Tattad,Ram-Leela,2013-01-01,250000,False,89,0.328,0.824,10,-7.737,1,0.0394,0.0962,0.000817,0.1601,0.433,72.9
+123,Amit Trivedi,Bollywood,481672,74,https://open.spotify.com/artist/123,Manjha,Kai Po Che,2013-01-01,230000,False,84,0.664,0.758,0,-5.983,1,0.0202,0.3323,0.00066,0.1933,0.512,110.0
+124,Nucleya,Bollywood,414555,71,https://open.spotify.com/artist/124,Bass Rani,Bass Rani,2015-01-01,200000,False,88,0.387,0.836,7,-6.157,1,0.0414,0.2116,0.000394,0.1578,0.431,131.5
+125,Honey Singh,Bollywood,346687,82,https://open.spotify.com/artist/125,Party All Night,Boss,2013-01-01,245000,False,90,0.324,0.799,2,-8.419,0,0.0264,0.3499,0.000316,0.1302,0.471,118.5
+126,Badshah,Bollywood,482619,83,https://open.spotify.com/artist/126,Genda Phool,Genda Phool,2020-01-01,210000,False,87,0.653,0.848,11,-6.574,1,0.0401,0.3377,0.000616,0.1033,0.469,127.2
+127,Raftaar,Bollywood,481210,77,https://open.spotify.com/artist/127,Baby Marvake Manegi,Baby Marvake Manegi,2017-01-01,195000,False,86,0.537,0.876,6,-7.314,1,0.035,0.0963,0.000586,0.1453,0.531,76.2
+128,Neha Kakkar,Bollywood,483459,84,https://open.spotify.com/artist/128,Manali Trance,The Shaukeens,2014-01-01,225000,False,88,0.329,0.927,7,-8.659,0,0.0737,0.0114,0.000641,0.1984,0.568,91.6
+129,Mika Singh,Bollywood,229912,79,https://open.spotify.com/artist/129,Mauja Hi Mauja,Jab We Met,2007-01-01,240000,False,90,0.575,0.789,7,-3.797,0,0.0347,0.0922,0.000146,0.0998,0.559,134.7
+130,Daler Mehndi,Bollywood,454645,84,https://open.spotify.com/artist/130,Na Na Na Re,Mrityudaata,1997-01-01,235000,False,85,0.519,0.823,5,-3.648,0,0.0488,0.0495,0.000426,0.0858,0.449,78.9
+131,Shankar Mahadevan,Bollywood,348456,89,https://open.spotify.com/artist/131,Mitwa,Lagaan,2001-01-01,320000,False,91,0.555,0.863,2,-5.831,1,0.0531,0.169,0.000648,0.0939,0.549,87.7
+132,A.R. Rahman,Bollywood,429513,94,https://open.spotify.com/artist/132,Chaiyya Chaiyya Remix,Inside Man,2006-01-01,280000,False,88,0.788,0.907,6,-4.737,0,0.0534,0.0114,0.000829,0.1868,0.518,122.6
+133,Vishal Dadlani,Bollywood,168622,89,https://open.spotify.com/artist/133,Ziddi Dil,Mary Kom,2014-01-01,250000,False,87,0.599,0.912,0,-3.296,1,0.0406,0.3866,0.00053,0.1831,0.546,116.1
+134,Shankar Ehsaan Loy,Bollywood,175948,75,https://open.spotify.com/artist/134,Senorita,Zindagi Na Milegi Dobara,2011-01-01,235000,False,86,0.742,0.785,1,-6.692,1,0.0528,0.407,0.000746,0.1277,0.552,98.6
+135,Benny Dayal,Bollywood,420362,87,https://open.spotify.com/artist/135,Kar Gayi Chull,Kapoor and Sons,2016-01-01,215000,False,91,0.867,0.857,11,-4.848,1,0.0316,0.0439,9.4e-05,0.1048,0.491,103.3
+136,Arijit Singh,Bollywood,404520,82,https://open.spotify.com/artist/136,Mast Magan,2 States,2014-01-01,260000,False,85,0.561,0.77,7,-5.003,1,0.0789,0.1041,0.00011,0.0851,0.426,119.1
+137,Badshah,Bollywood,173545,88,https://open.spotify.com/artist/137,Buzz,Buzz,2018-01-01,195000,False,89,0.602,0.945,7,-7.051,0,0.0786,0.2885,0.000292,0.065,0.457,97.4
+138,AP Dhillon,Bollywood,177391,86,https://open.spotify.com/artist/138,Insane,Insane,2021-01-01,188000,False,90,0.797,0.79,11,-6.485,0,0.0407,0.3167,0.000404,0.1318,0.503,112.2
+139,Diljit Dosanjh,Bollywood,273033,93,https://open.spotify.com/artist/139,Born to Shine,G.O.A.T,2020-01-01,205000,False,88,0.747,0.836,9,-3.621,1,0.0417,0.2347,0.000186,0.1996,0.558,106.1
+140,Arijit Singh,Bollywood,359835,89,https://open.spotify.com/artist/140,Kesariya,Brahmastra,2022-01-01,268000,False,99,0.886,0.65,1,-8.747,1,0.045,0.2075,0.000998,0.1942,0.517,137.4
+141,Arijit Singh,Bollywood,290782,78,https://open.spotify.com/artist/141,Apna Bana Le,Bhediya,2022-01-01,302000,False,96,0.679,0.735,8,-5.945,1,0.0325,0.3305,0.000527,0.1781,0.555,128.4
+142,King,Bollywood,114156,86,https://open.spotify.com/artist/142,Maan Meri Jaan,Champagne Talk,2022-01-01,198000,False,95,0.791,0.718,8,-7.584,0,0.0425,0.1456,0.000644,0.0648,0.581,138.5
+143,Akhil Sachdeva,Bollywood,134472,76,https://open.spotify.com/artist/143,Tera Ban Jaunga,Kabir Singh,2019-01-01,248000,False,89,0.505,0.696,8,-9.455,0,0.0574,0.4058,0.000564,0.1729,0.556,115.6
+144,Arijit Singh,Bollywood,340176,87,https://open.spotify.com/artist/144,Hawayein,Jab Harry Met Sejal,2017-01-01,290000,False,93,0.698,0.579,9,-3.131,1,0.0214,0.3759,0.000888,0.1406,0.554,125.6
+145,Udit Narayan,Bollywood,170068,88,https://open.spotify.com/artist/145,Pehla Nasha,Jo Jeeta Wohi Sikandar,1992-01-01,302000,False,94,0.377,0.666,10,-4.381,1,0.0497,0.262,0.000599,0.1341,0.529,94.2
+146,Shreya Ghoshal,Bollywood,72191,86,https://open.spotify.com/artist/146,Deewani Mastani,Bajirao Mastani,2015-01-01,314000,False,92,0.837,0.635,3,-3.699,0,0.0319,0.3674,0.000993,0.1871,0.412,144.0
+147,Kishore Kumar,Bollywood,194996,85,https://open.spotify.com/artist/147,Pal Pal Dil Ke Paas,Blackmail,1973-01-01,290000,False,90,0.682,0.739,5,-3.381,0,0.0233,0.4474,0.000834,0.1761,0.427,74.2
+148,Kumar Sanu,Bollywood,56112,86,https://open.spotify.com/artist/148,Ek Ladki Ko Dekha,1942 A Love Story,1994-01-01,302000,False,92,0.69,0.713,9,-8.219,1,0.0311,0.3941,0.000848,0.1727,0.453,107.5
+149,Diljit Dosanjh,Bollywood,214041,80,https://open.spotify.com/artist/149,Lover,Lover,2023-01-01,224000,False,90,0.328,0.589,2,-3.259,0,0.0204,0.3843,0.000485,0.1093,0.489,119.9
+150,Ali Sethi,Bollywood,346770,94,https://open.spotify.com/artist/150,Pasoori,Coke Studio S14,2022-01-01,258000,False,97,0.571,0.702,8,-8.334,0,0.0307,0.3101,0.000584,0.0503,0.45,84.2
+151,AP Dhillon,Bollywood,268889,73,https://open.spotify.com/artist/151,Excuses,Excuses,2021-01-01,210000,False,92,0.804,0.652,9,-3.642,0,0.0747,0.4993,0.000243,0.1646,0.513,89.7
+152,Arijit Singh,Bollywood,92078,93,https://open.spotify.com/artist/152,Raabta,Agent Vinod,2012-01-01,284000,False,91,0.718,0.552,6,-4.468,0,0.0661,0.3706,0.00033,0.195,0.529,120.6
+153,Jubin Nautiyal,Bollywood,126470,70,https://open.spotify.com/artist/153,Raataan Lambiyan,Shershaah,2021-01-01,238000,False,94,0.345,0.742,0,-5.833,0,0.0201,0.2726,0.000614,0.1499,0.406,147.5
+154,B Praak,Bollywood,58793,93,https://open.spotify.com/artist/154,Mann Bharryaa,Shershaah,2021-01-01,220000,False,91,0.367,0.521,9,-3.174,1,0.0529,0.1125,0.000514,0.1084,0.49,105.8
+155,Vishal Mishra,Bollywood,325398,83,https://open.spotify.com/artist/155,Kaise Hua,Kabir Singh,2019-01-01,220000,False,88,0.489,0.618,10,-4.746,1,0.0784,0.4864,0.000812,0.161,0.476,119.8
+156,Arijit Singh,Bollywood,301495,86,https://open.spotify.com/artist/156,Dil Diyan Gallan,Tiger Zinda Hai,2017-01-01,275000,False,92,0.631,0.726,10,-5.078,1,0.0619,0.0836,0.00071,0.1339,0.492,127.7
+157,Kishore Kumar,Bollywood,287037,93,https://open.spotify.com/artist/157,Roop Tera Mastana,Aradhana,1969-01-01,276000,False,86,0.749,0.616,6,-9.213,1,0.039,0.1613,0.000946,0.0942,0.529,146.5
+158,Asha Bhosle,Bollywood,344917,79,https://open.spotify.com/artist/158,Dum Maro Dum,Hare Rama Hare Krishna,1971-01-01,310000,False,87,0.594,0.6,1,-4.026,1,0.0768,0.1195,0.000225,0.1213,0.476,127.3
+159,Arijit Singh,Bollywood,491061,85,https://open.spotify.com/artist/159,Tera Yaar Hoon Main,Sonu Ke Titu Ki Sweety,2018-01-01,254000,False,85,0.701,0.556,6,-4.848,0,0.0321,0.16,0.000297,0.1999,0.422,81.7
+160,Armaan Malik,Bollywood,249825,76,https://open.spotify.com/artist/160,Butta Bomma,Ala Vaikunthapurramuloo,2020-01-01,215000,False,90,0.539,0.712,8,-9.678,0,0.0714,0.4844,4.1e-05,0.0739,0.462,123.7
+161,Darshan Raval,Bollywood,151360,90,https://open.spotify.com/artist/161,Dil Mera Blast,Dil Mera Blast,2019-01-01,195000,False,87,0.455,0.544,6,-6.483,1,0.071,0.0858,0.00057,0.0886,0.426,137.3
+162,Stebin Ben,Bollywood,403695,91,https://open.spotify.com/artist/162,Jaana,Jaana,2021-01-01,205000,False,86,0.485,0.71,11,-3.126,0,0.0238,0.0249,3.4e-05,0.1163,0.495,79.0
+163,Jubin Nautiyal,Bollywood,494897,87,https://open.spotify.com/artist/163,Tum Hi Aana,Marjaavaan,2019-01-01,270000,False,90,0.742,0.544,8,-7.494,0,0.0292,0.1857,0.000352,0.1315,0.466,121.1
+164,Arijit Singh,Bollywood,123424,71,https://open.spotify.com/artist/164,Gerua,Dilwale,2015-01-01,280000,False,91,0.614,0.748,11,-4.184,1,0.0708,0.4116,0.000865,0.0796,0.577,111.9
+165,Atif Aslam,Bollywood,242315,70,https://open.spotify.com/artist/165,Dil Diyan Gallan,Tiger Zinda Hai,2017-01-01,260000,False,88,0.355,0.644,3,-5.441,1,0.075,0.396,0.000213,0.085,0.598,120.2
+166,Kumar Sanu,Bollywood,255185,77,https://open.spotify.com/artist/166,Tujhe Dekha To,DDLJ,1995-01-01,300000,False,94,0.424,0.656,9,-7.269,1,0.0342,0.4888,0.000768,0.1182,0.477,140.6
+167,Udit Narayan,Bollywood,473862,74,https://open.spotify.com/artist/167,Mehndi Laga Ke Rakhna,DDLJ,1995-01-01,275000,False,91,0.853,0.733,5,-7.803,0,0.0463,0.1942,2.1e-05,0.0961,0.52,106.5
+168,Sonu Nigam,Bollywood,373216,94,https://open.spotify.com/artist/168,Suraj Hua Maddham,K3G,2001-01-01,330000,False,93,0.836,0.628,5,-5.225,1,0.0551,0.012,0.000684,0.1745,0.493,128.0
+169,Alka Yagnik,Bollywood,178926,79,https://open.spotify.com/artist/169,Kuch Kuch Hota Hai,KKHH,1998-01-01,290000,False,92,0.471,0.657,10,-8.165,0,0.0533,0.4954,0.000178,0.0525,0.408,88.3
+170,Vishal Dadlani,Bollywood,135649,92,https://open.spotify.com/artist/170,Ziddi Dil,Mary Kom,2014-01-01,250000,False,87,0.5,0.83,5,-4.653,1,0.0545,0.218,0.000939,0.0574,0.204,110.8
+171,Sukhwinder Singh,Bollywood,175019,94,https://open.spotify.com/artist/171,Dangal Title,Dangal,2016-01-01,280000,False,90,0.386,0.687,9,-3.88,1,0.0368,0.401,0.00048,0.148,0.379,82.1
+172,Arijit Singh,Bollywood,232004,71,https://open.spotify.com/artist/172,Monster,Monster,2022-01-01,210000,False,84,0.48,0.861,9,-8.768,0,0.0339,0.1993,0.000345,0.1549,0.279,129.2
+173,Mika Singh,Bollywood,411906,72,https://open.spotify.com/artist/173,Aaj Ki Party,Bajrangi Bhaijaan,2015-01-01,235000,False,86,0.36,0.777,2,-8.82,1,0.0673,0.353,0.000896,0.1989,0.339,71.3
+174,Vishal Dadlani,Bollywood,432118,73,https://open.spotify.com/artist/174,Sultan Title,Sultan,2016-01-01,260000,False,89,0.655,0.718,8,-3.843,1,0.0315,0.0218,0.000923,0.1688,0.171,78.4
+175,Raftaar,Bollywood,141250,80,https://open.spotify.com/artist/175,Panther,Panther,2018-01-01,195000,False,85,0.459,0.796,8,-8.497,1,0.0799,0.29,0.000944,0.0858,0.263,137.5
+176,Divine,Bollywood,308822,92,https://open.spotify.com/artist/176,Mere Gully Mein,Gully Boy,2019-01-01,215000,False,91,0.877,0.672,0,-8.605,0,0.0429,0.3828,0.000329,0.0569,0.192,138.7
+177,Naezy,Bollywood,266234,87,https://open.spotify.com/artist/177,Aafat,Gully Boy,2019-01-01,200000,False,88,0.611,0.854,10,-7.209,1,0.0355,0.3329,0.00028,0.1434,0.273,90.4
+178,Badshah,Bollywood,355696,73,https://open.spotify.com/artist/178,Power,Power,2020-01-01,190000,False,86,0.383,0.804,10,-9.247,0,0.0501,0.4113,0.000119,0.1033,0.17,91.5
+179,Emiway,Bollywood,367680,91,https://open.spotify.com/artist/179,Machayenge,Machayenge,2019-01-01,185000,False,90,0.639,0.647,1,-7.436,1,0.0371,0.0974,0.000197,0.1016,0.223,82.8
+180,Honey Singh,Bollywood,275484,87,https://open.spotify.com/artist/180,Desi Kalakaar,Desi Kalakaar,2014-01-01,230000,False,87,0.642,0.825,10,-6.321,1,0.0308,0.3933,0.000958,0.1248,0.345,110.3
+181,Raftaar,Bollywood,487982,83,https://open.spotify.com/artist/181,Mantoiyat,Mantoiyat,2018-01-01,200000,False,88,0.593,0.798,10,-5.061,0,0.0727,0.2873,0.000852,0.191,0.251,148.9
+182,Divine,Bollywood,78544,78,https://open.spotify.com/artist/182,Jungli Sher,Jungli Sher,2016-01-01,205000,False,85,0.431,0.854,10,-4.127,1,0.0617,0.2546,0.000986,0.0638,0.377,146.0
+183,Vishal Dadlani,Bollywood,221277,85,https://open.spotify.com/artist/183,Bhaag DK Bose,Delhi Belly,2011-01-01,220000,False,89,0.556,0.755,7,-8.386,0,0.0486,0.1722,0.000888,0.0656,0.232,101.4
+184,Sukhwinder Singh,Bollywood,383607,75,https://open.spotify.com/artist/184,Sahasa,Sahasa,2015-01-01,240000,False,84,0.478,0.76,6,-3.545,0,0.051,0.1223,0.000961,0.0925,0.191,93.8
+185,Shankar Mahadevan,Bollywood,50450,74,https://open.spotify.com/artist/185,Ganesh Aarti,ABCD,2013-01-01,270000,False,86,0.411,0.817,2,-3.629,1,0.0213,0.4311,0.000873,0.1669,0.301,135.5
+186,Kailash Kher,Bollywood,305245,85,https://open.spotify.com/artist/186,Teri Deewani,Teri Deewani,2004-01-01,290000,False,83,0.42,0.82,1,-9.415,0,0.0739,0.4218,0.000468,0.155,0.281,144.9
+187,Kailash Kher,Bollywood,117142,75,https://open.spotify.com/artist/187,Allah Ke Bande,Waisa Bhi Hota Hai,2003-01-01,265000,False,85,0.527,0.753,7,-8.994,1,0.0544,0.2487,0.0005,0.0888,0.281,77.2
+188,Emiway,Bollywood,147362,78,https://open.spotify.com/artist/188,Firse Machayenge,Firse Machayenge,2020-01-01,180000,False,89,0.644,0.674,6,-9.651,0,0.0782,0.4006,0.000182,0.1876,0.158,103.5
+189,Raftaar,Bollywood,429098,79,https://open.spotify.com/artist/189,Hard Drive,Hard Drive,2019-01-01,195000,False,87,0.373,0.793,9,-3.805,0,0.0441,0.332,0.000925,0.1165,0.225,92.8

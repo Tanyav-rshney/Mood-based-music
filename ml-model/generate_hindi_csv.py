@@ -1,0 +1,101 @@
+import csv, random
+
+songs = [
+    # HAPPY songs (valence>0.6, energy>0.6)
+    ("Arijit Singh","Bollywood","Gallan Goodiyaan","Dil Dhadakne Do","2015-06-05",282000,91,0.82,0.85,0.78,130),
+    ("Vishal Dadlani","Bollywood","Balam Pichkari","Yeh Jawaani Hai Deewani","2013-05-31",276000,93,0.88,0.9,0.85,140),
+    ("Benny Dayal","Bollywood","Badtameez Dil","Yeh Jawaani Hai Deewani","2013-05-31",240000,90,0.85,0.88,0.82,135),
+    ("Badshah","Bollywood","Kala Chashma","Baar Baar Dekho","2016-09-09",234000,94,0.9,0.87,0.88,128),
+    ("Mika Singh","Bollywood","Ganpat","Shootout at Lokhandwala","2007-05-25",248000,85,0.8,0.82,0.75,132),
+    ("Sukhwinder Singh","Bollywood","Jai Ho","Slumdog Millionaire","2009-01-23",322000,96,0.78,0.85,0.72,126),
+    ("Labh Janjua","Bollywood","London Thumakda","Queen","2014-03-07",258000,89,0.87,0.83,0.8,138),
+    ("Daler Mehndi","Bollywood","Tunak Tunak Tun","Tunak Tunak Tun","1998-07-01",230000,88,0.92,0.9,0.88,145),
+    ("Shankar Mahadevan","Bollywood","Breathless","Breathless","1998-01-01",280000,84,0.75,0.8,0.7,120),
+    ("Salim Merchant","Bollywood","Ainvayi Ainvayi","Band Baaja Baaraat","2010-12-10",266000,86,0.83,0.81,0.76,134),
+    ("Vishal Dadlani","Bollywood","Swag Se Swagat","Tiger Zinda Hai","2017-12-22",244000,90,0.86,0.88,0.84,136),
+    ("Shreya Ghoshal","Bollywood","Ghoomar","Padmaavat","2018-01-25",266000,89,0.77,0.78,0.72,118),
+    ("KK","Bollywood","Yaaron","Rockford","1999-01-01",278000,90,0.72,0.68,0.65,112),
+    ("Sonu Nigam","Bollywood","Mere Sapno Ki Rani","Aradhana Remix","2000-01-01",268000,88,0.78,0.75,0.7,125),
+    ("Arijit Singh","Bollywood","Jhoome Jo Pathaan","Pathaan","2023-01-25",232000,97,0.88,0.92,0.85,142),
+    ("Pritam","Bollywood","Ilahi","Yeh Jawaani Hai Deewani","2013-05-31",218000,87,0.72,0.65,0.68,115),
+    ("Amit Trivedi","Bollywood","Naina Da Kya Kasoor","Andhadhun","2018-10-05",195000,82,0.7,0.62,0.65,110),
+    ("Arijit Singh","Bollywood","Nashe Si Chadh Gayi","Befikre","2016-12-09",235000,91,0.84,0.86,0.8,130),
+    ("Vishal Dadlani","Bollywood","Malhari","Bajirao Mastani","2015-12-18",245000,90,0.9,0.92,0.88,148),
+    ("Shivam Pathak","Bollywood","Khalibali","Padmaavat","2018-01-25",230000,87,0.85,0.9,0.82,140),
+
+    # SAD songs - but CALMING/SOOTHING (valence<0.4, energy<0.5) - songs that heal
+    ("Arijit Singh","Bollywood","Tujhe Kitna Chahne Lage","Kabir Singh","2019-06-21",240000,92,0.35,0.38,0.3,85),
+    ("Arijit Singh","Bollywood","Channa Mereya","Ae Dil Hai Mushkil","2016-10-28",280000,97,0.32,0.4,0.28,90),
+    ("Arijit Singh","Bollywood","Agar Tum Saath Ho","Tamasha","2015-11-27",340000,96,0.28,0.35,0.25,78),
+    ("Arijit Singh","Bollywood","Phir Le Aaya Dil","Barfi","2012-09-14",296000,88,0.3,0.42,0.27,82),
+    ("Arijit Singh","Bollywood","Samjhawan","Humpty Sharma Ki Dulhania","2014-07-11",280000,90,0.33,0.37,0.3,80),
+    ("Atif Aslam","Bollywood","Tere Bin","Bas Ek Pal","2006-10-06",310000,89,0.35,0.4,0.32,88),
+    ("KK","Bollywood","Tadap Tadap","Hum Dil De Chuke Sanam","1999-06-18",340000,88,0.25,0.45,0.22,92),
+    ("Sonu Nigam","Bollywood","Abhi Mujh Mein Kahin","Agneepath","2012-01-26",298000,94,0.3,0.38,0.28,84),
+    ("Sonu Nigam","Bollywood","Kal Ho Naa Ho","Kal Ho Naa Ho","2003-11-28",322000,96,0.38,0.42,0.35,86),
+    ("Mohit Chauhan","Bollywood","Tum Se Hi","Jab We Met","2007-10-26",312000,91,0.36,0.4,0.33,82),
+    ("Arijit Singh","Bollywood","Humdard","Ek Villain","2014-06-27",255000,87,0.32,0.35,0.3,76),
+    ("Shreya Ghoshal","Bollywood","Teri Meri","Bodyguard","2011-08-31",296000,86,0.34,0.38,0.3,80),
+    ("Arijit Singh","Bollywood","O Bedardeya","Tu Jhoothi Main Makkaar","2023-03-08",286000,93,0.38,0.42,0.35,88),
+    ("Arijit Singh","Bollywood","Ae Dil Hai Mushkil","Ae Dil Hai Mushkil","2016-10-28",278000,95,0.35,0.4,0.32,84),
+    ("Jubin Nautiyal","Bollywood","Lut Gaye","Lut Gaye","2021-02-16",265000,90,0.37,0.43,0.34,90),
+    ("Arijit Singh","Bollywood","Tera Yaar Hoon Main","Sonu Ke Titu Ki Sweety","2018-02-23",254000,85,0.38,0.4,0.35,82),
+    ("Armaan Malik","Bollywood","Bol Do Na Zara","Azhar","2016-05-13",270000,84,0.36,0.39,0.33,80),
+    ("Papon","Bollywood","Moh Moh Ke Dhaage","Dum Laga Ke Haisha","2015-02-27",295000,83,0.3,0.35,0.28,75),
+
+    # CALM songs (valence>0.5, energy<0.45)
+    ("A.R. Rahman","Bollywood","Kun Faya Kun","Rockstar","2011-11-11",468000,96,0.55,0.3,0.2,70),
+    ("A.R. Rahman","Bollywood","Khwaja Mere Khwaja","Jodhaa Akbar","2008-02-15",380000,93,0.58,0.35,0.22,72),
+    ("Rahat Fateh Ali Khan","Bollywood","Afreen Afreen","Coke Studio","2016-08-19",472000,95,0.52,0.38,0.25,75),
+    ("Arijit Singh","Bollywood","Tere Bina","Guru","2007-01-12",318000,86,0.55,0.4,0.28,78),
+    ("A.R. Rahman","Bollywood","Jai Ho","Slumdog Millionaire","2009-01-23",300000,90,0.6,0.42,0.3,80),
+    ("Lata Mangeshkar","Bollywood","Lag Ja Gale","Woh Kaun Thi","1964-01-01",264000,91,0.58,0.32,0.2,68),
+    ("Arijit Singh","Bollywood","Safar","Jab Harry Met Sejal","2017-08-04",266000,84,0.52,0.4,0.25,76),
+    ("Rahat Fateh Ali Khan","Bollywood","Bol Na Halke Halke","Jhoom Barabar Jhoom","2007-06-15",296000,88,0.56,0.42,0.3,80),
+    ("Javed Ali","Bollywood","Jashn-E-Bahara","Jodhaa Akbar","2008-02-15",340000,88,0.54,0.38,0.25,74),
+    ("Mohit Chauhan","Bollywood","Masakali","Delhi-6","2009-02-20",285000,86,0.57,0.43,0.28,82),
+
+    # ENERGETIC songs (valence in middle, energy>0.6)
+    ("Sukhwinder Singh","Bollywood","Chaiyya Chaiyya","Dil Se","1998-08-21",312000,95,0.55,0.88,0.75,138),
+    ("Sukhwinder Singh","Bollywood","Chak De India","Chak De India","2007-08-10",288000,92,0.5,0.9,0.72,135),
+    ("Sukhwinder Singh","Bollywood","Kar Har Maidaan Fateh","Sanju","2018-06-29",296000,88,0.48,0.85,0.7,130),
+    ("Siddharth Mahadevan","Bollywood","Zinda","Bhaag Milkha Bhaag","2013-07-12",268000,85,0.45,0.82,0.68,128),
+    ("Honey Singh","Bollywood","Lungi Dance","Chennai Express","2013-08-09",252000,88,0.55,0.87,0.8,140),
+    ("Badshah","Bollywood","Garmi","Street Dancer 3D","2020-01-24",228000,86,0.5,0.85,0.78,136),
+    ("AP Dhillon","Bollywood","Brown Munde","Brown Munde","2020-10-05",196000,94,0.48,0.8,0.72,125),
+    ("Shreya Ghoshal","Bollywood","Nagada Sang Dhol","Goliyon Ki Raasleela Ram-Leela","2013-11-15",248000,91,0.5,0.88,0.75,142),
+    ("Arijit Singh","Bollywood","Kesariya","Brahmastra","2022-07-15",268000,99,0.55,0.7,0.6,118),
+    ("Arijit Singh","Bollywood","Apna Bana Le","Bhediya","2022-11-25",302000,96,0.5,0.65,0.55,112),
+    ("King","Bollywood","Maan Meri Jaan","Champagne Talk","2022-10-21",198000,95,0.55,0.68,0.6,115),
+    ("Arijit Singh","Bollywood","Tum Hi Ho","Aashiqui 2","2013-04-16",262000,98,0.45,0.7,0.55,110),
+    ("Akhil Sachdeva","Bollywood","Tera Ban Jaunga","Kabir Singh","2019-06-21",248000,89,0.5,0.65,0.58,108),
+    ("Arijit Singh","Bollywood","Hawayein","Jab Harry Met Sejal","2017-08-04",290000,93,0.48,0.62,0.5,105),
+    ("Udit Narayan","Bollywood","Pehla Nasha","Jo Jeeta Wohi Sikandar","1992-05-22",302000,94,0.55,0.6,0.52,108),
+    ("Shreya Ghoshal","Bollywood","Deewani Mastani","Bajirao Mastani","2015-12-18",314000,92,0.5,0.72,0.6,120),
+    ("Kishore Kumar","Bollywood","Pal Pal Dil Ke Paas","Blackmail","1973-01-01",290000,90,0.52,0.58,0.48,102),
+    ("Kumar Sanu","Bollywood","Ek Ladki Ko Dekha","1942 A Love Story","1994-04-29",302000,92,0.55,0.6,0.5,106),
+    ("Kishore Kumar","Bollywood","Roop Tera Mastana","Aradhana","1969-01-01",276000,86,0.5,0.55,0.45,100),
+    ("Diljit Dosanjh","Bollywood","Lover","Lover","2023-07-07",224000,90,0.52,0.68,0.58,115),
+    ("Ali Sethi","Bollywood","Pasoori","Coke Studio S14","2022-02-07",258000,97,0.55,0.72,0.62,120),
+    ("Asha Bhosle","Bollywood","Dum Maro Dum","Hare Rama Hare Krishna","1971-01-01",310000,87,0.5,0.55,0.45,98),
+    ("AP Dhillon","Bollywood","Excuses","Excuses","2021-03-26",210000,92,0.48,0.65,0.55,112),
+    ("Arijit Singh","Bollywood","Raabta","Agent Vinod","2012-03-23",284000,91,0.5,0.62,0.52,108),
+    ("Jubin Nautiyal","Bollywood","Raataan Lambiyan","Shershaah","2021-07-19",238000,94,0.52,0.6,0.5,105),
+    ("B Praak","Bollywood","Mann Bharryaa","Shershaah","2021-08-03",220000,91,0.45,0.55,0.42,98),
+    ("Darshan Raval","Bollywood","Tera Zikr","Tera Zikr","2017-06-30",245000,87,0.48,0.58,0.45,102),
+    ("Sachet Tandon","Bollywood","Bekhayali","Kabir Singh","2019-06-21",390000,93,0.42,0.72,0.48,115),
+    ("Vishal Mishra","Bollywood","Kaise Hua","Kabir Singh","2019-06-21",220000,88,0.5,0.58,0.45,100),
+    ("Arijit Singh","Bollywood","Dil Diyan Gallan","Tiger Zinda Hai","2017-12-22",275000,92,0.52,0.6,0.48,105),
+]
+
+with open('spotify_songs.csv', 'w', newline='', encoding='utf-8') as f:
+    w = csv.writer(f)
+    w.writerow(['','artist_name','genres','followers','artist_popularity','artist_url','track_name','album_name','release_date','duration_ms','explicit','track_popularity','danceability','energy','key','loudness','mode','speechiness','acousticness','instrumentalness','liveness','valence','tempo'])
+    for i, (artist, genre, track, album, date, dur, pop, val, eng, dance, tempo) in enumerate(songs):
+        w.writerow([i, artist, genre, random.randint(50000,500000), random.randint(70,95),
+                     f'https://open.spotify.com/artist/{i}', track, album, date, dur, False, pop,
+                     round(dance,3), round(eng,3), random.randint(0,11), round(-random.uniform(3,10),3),
+                     random.randint(0,1), round(random.uniform(0.02,0.08),4), round(random.uniform(0.01,0.5),4),
+                     round(random.uniform(0,0.001),6), round(random.uniform(0.05,0.2),4), round(val,3), round(tempo,3)])
+
+print(f"Created Hindi Bollywood CSV with {len(songs)} songs")
