@@ -131,14 +131,6 @@ E --> F[Display to User 🎧]
 
 ---
 
-## 👥 Team Members
-
-* 👩‍💻 Tanya Varshney
-* 👩‍💻 Tanisha Sharma
-* 👨‍💻 Tanmay Gulati
-
----
-
 ## ⭐ Show Your Support
 
 If you like this project:
