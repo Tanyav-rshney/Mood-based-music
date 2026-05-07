@@ -65,7 +65,7 @@
 
 ## 🎧 Music Player
 
-<img src="./screenshots/player.png" width="900"/>
+<img src="./screenshots/selectmood.png" width="900"/>
 
 <br/><br/>
 
