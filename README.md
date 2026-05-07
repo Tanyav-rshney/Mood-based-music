@@ -1,15 +1,15 @@
 <div align="center">
 
-# 🎵 Mood-Based Music Recommendation System
+# 🎵 NeonPulse — Mood Based Music Recommendation System
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&color=00C2FF&center=true&vCenter=true&width=800&lines=Smart+Music+Recommendations+🎧;React+%7C+Node.js+%7C+MongoDB;Built+with+❤️+by+Tanya+Varshney" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&color=00C2FF&center=true&vCenter=true&width=900&lines=Smart+Music+Recommendations+🎧;AI+Powered+Mood+Detection+✨;React+%7C+Node.js+%7C+MongoDB+%7C+Python;Built+with+❤️+by+Tanya+Varshney" />
 
 <br/>
 
 <img src="https://img.shields.io/github/stars/Tanyav-rshney/Mood-based-music?style=for-the-badge&logo=github&color=yellow" />
 <img src="https://img.shields.io/github/forks/Tanyav-rshney/Mood-based-music?style=for-the-badge&logo=github&color=blue" />
 <img src="https://img.shields.io/github/repo-size/Tanyav-rshney/Mood-based-music?style=for-the-badge&color=orange" />
-<img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
 
 <br/><br/>
 
@@ -23,9 +23,9 @@
 
 ## 🌟 Experience Music Based on Your Emotions
 
-🎧 A smart web application that recommends songs according to the user's mood.
+🎧 An AI-powered futuristic music recommendation platform that understands user emotions and creates the perfect vibe playlist instantly.
 
-✨ Happy, Sad, Energetic or Calm — discover the perfect vibe instantly.
+✨ Happy, Sad, Energetic, Romantic or Calm — discover the perfect soundtrack for every emotion.
 
 </div>
 
@@ -45,7 +45,33 @@
 
 <div align="center">
 
-<img src="YOUR_SCREENSHOT_LINK" width="850"/>
+## 🏠 Home Page
+
+<img src="./screenshots/home.png" width="900"/>
+
+<br/><br/>
+
+## 🎵 Playlist Queue
+
+<img src="./screenshots/queue.png" width="900"/>
+
+<br/><br/>
+
+## 🔍 Discover Section
+
+<img src="./screenshots/discover.png" width="900"/>
+
+<br/><br/>
+
+## 🎧 Music Player
+
+<img src="./screenshots/player.png" width="900"/>
+
+<br/><br/>
+
+## 🔐 Authentication Page
+
+<img src="./screenshots/login.png" width="700"/>
 
 </div>
 
@@ -55,14 +81,16 @@
 
 <div align="center">
 
-| Feature            | Description                       |
-| ------------------ | --------------------------------- |
-| 🎧 Mood Detection  | Recommend songs based on emotions |
-| ⚡ Fast Backend     | Node.js + Express APIs            |
-| 🍃 MongoDB         | Structured song storage           |
-| 🎨 Modern UI       | Interactive & responsive design   |
-| 🔍 Smart Filtering | Filter by mood & genre            |
-| 🤖 AI Ready        | Future AI integration support     |
+| Feature                  | Description                       |
+| ------------------------ | --------------------------------- |
+| 🎭 Mood Detection        | Detects user emotions from text   |
+| 🎵 Smart Recommendations | Suggests songs according to mood  |
+| 🎧 Interactive Player    | Modern music player with controls |
+| ⚡ Fast Backend           | Built with Node.js & Express      |
+| 🍃 MongoDB Database      | Structured song & user storage    |
+| 🔍 Discover System       | Browse songs, artists & playlists |
+| 🔐 Authentication        | Login & registration system       |
+| 🤖 AI Ready              | ML-powered recommendation support |
 
 </div>
 
@@ -72,7 +100,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,js,html,css,git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,python,js,html,css,git,github,vscode" />
 
 </div>
 
@@ -84,8 +112,23 @@
 Mood-based-music/
 │
 ├── frontend/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   └── assets/
+│
 ├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── routes/
+│   └── src/
+│
 ├── ml-model/
+│   ├── ml_api.py
+│   ├── spotify_songs.csv
+│   └── requirements.txt
+│
 └── README.md
 ```
 
@@ -93,21 +136,26 @@ Mood-based-music/
 
 # ⚙️ Installation Guide
 
-## Clone Repository
+## 🔹 Clone Repository
 
 ```bash
 git clone https://github.com/Tanyav-rshney/Mood-based-music.git
+cd Mood-based-music
 ```
 
-## Backend Setup
+---
+
+## 🔹 Backend Setup
 
 ```bash
 cd backend
 npm install
-npm start
+npm run dev
 ```
 
-## Frontend Setup
+---
+
+## 🔹 Frontend Setup
 
 ```bash
 cd frontend
@@ -117,22 +165,64 @@ npm run dev
 
 ---
 
+## 🔹 ML Model Setup
+
+```bash
+cd ml-model
+pip install -r requirements.txt
+python ml_api.py
+```
+
+---
+
 # 🌐 Environment Variables
 
+Create `.env` file inside backend folder.
+
 ```env
-MONGO_URI=your_mongodb_connection_string
 PORT=5000
+MONGO_URI=your_mongodb_connection
 JWT_SECRET=your_secret_key
+EMAIL_USER=your_email
+EMAIL_PASS=your_password
 ```
+
+---
+
+# 🎯 Application Workflow
+
+```mermaid
+graph TD;
+
+A[User Enters Mood 😊] --> B[Frontend UI]
+B --> C[Backend API]
+C --> D[ML Mood Detection]
+D --> E[MongoDB Songs]
+E --> F[Recommended Playlist]
+F --> G[Interactive Music Player 🎧]
+```
+
+---
+
+# 💎 UI Highlights
+
+✨ Futuristic Neon Design
+✨ Smooth Glassmorphism Effects
+✨ Interactive Music Player
+✨ Animated Transitions
+✨ Modern Responsive Layout
+✨ Cyberpunk Inspired Theme
 
 ---
 
 # 🚀 Future Enhancements
 
-✨ Spotify API Integration
-🤖 AI-based recommendations
-🌙 Dark mode support
-❤️ Personalized playlists
+🎤 Voice-Based Mood Detection
+🎧 Spotify API Integration
+🤖 Advanced AI Recommendations
+🌙 Dark Mode Support
+📱 Mobile Application
+🌍 Social Playlist Sharing
 
 ---
 
@@ -144,7 +234,21 @@ JWT_SECRET=your_secret_key
 
 💻 MERN Stack Developer
 🎨 Frontend Enthusiast
-🚀 Passionate About Creative UI
+🚀 Passionate About Creative UI & AI-Based Experiences
+
+</div>
+
+---
+
+# ⭐ Support
+
+<div align="center">
+
+If you like this project:
+
+⭐ Star this Repository
+🍴 Fork this Project
+💙 Share with Others
 
 </div>
 
@@ -152,6 +256,6 @@ JWT_SECRET=your_secret_key
 
 <div align="center">
 
-### ⭐ If you like this project, don't forget to star the repository ⭐
+# 🎶 “Music changes emotions. NeonPulse understands them.” 🎶
 
 </div>
